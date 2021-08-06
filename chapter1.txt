@@ -1,4 +1,6 @@
 I was the best of times..
-git init,
-git status,
-git add chapter1.text
+git init, (start git here)
+git status, (see the status of git)
+git add chapter1.text (stage changes)
+git diff chapter3.txt (show difference)
+git checkout chapter3.txt (revert back)
