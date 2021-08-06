@@ -1,3 +1,4 @@
 I was the best of times..
 git init,
-git status
+git status,
+git add chapter1.text
