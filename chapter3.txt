@@ -1,1 +1,10 @@
-this is chapter 3
+@mixin lengths($length-content, $start, $end, $step: 1, $unit: "px") {
+    @for $i from ceil($start/$step) through ceil($end/$step) {
+      $value: $i * $step;
+      "--"#{$length-content}: #{$value}#{$unit};
+    }
+  }
+  
+@include lengths("length-wh", 100, 200, 10);
+
+
